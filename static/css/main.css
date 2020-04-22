@@ -6,24 +6,31 @@ body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27A822;
+}
+.top-round-rainbow {
+  width: 100%;
+  height:5%;
+  border-radius: 1px;
+  background-image: repeating-linear-gradient(to right,
+  #c4e17f 0px, #c4e17f 50px,
+  #f7fdca 50px, #f7fdca 100px,
+  #fad071 100px, #fad071 150px,
+  #f0766b 150px, #f0766b 200px,
+  #db9dbe 200px, #db9dbe 250px,
+  #c49cdf 250px, #c49cdf 300px,
+  #6599e2 300px, #6599e2 350px,
+  #61c2e4 350px, #61c2e4 400px);
+  background-size: 100% 20px;
+  background-repeat:no-repeat;
 }
 /* Wrapper for page content to push down footer */
-#wrap {
-  padding-bottom: 50px;	
-  min-height: 100%;
-  height: auto;
-  /* Negative indent footer by its height */
-  margin: 0 auto -65px;
-  /* Pad bottom by footer height */
-  /*padding: 0 0 60px;*/
-}
+
 
 /* Navbar
 -------------------------------------------------- */
 
 .navbar-static-top {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .navbar-default {
   background-color: #ffffff;
@@ -96,10 +103,10 @@ body {
   margin: 20px 0;
 }
 .container a {
-  color: #27A822;
+  color: #966ac4;
 }
 .container a:hover {
-  color: #267723;
+  color: #966ac4;
 }
 .img-responsive {
  display: block;
@@ -120,10 +127,10 @@ body {
   font-size: 15px;
 }
 .panel-default h4 a, h5 a {
-  color: #27A822;
+  color: #966ac4;
 }
 .panel-default h4 a:hover, h5 a:hover {
-  color: #267723;
+  color: #966ac4;
 }
 .panel{
   border-style: none;
@@ -140,7 +147,7 @@ body {
   color: #000000;
 }
 .avatar {
-  padding-top: 5%;
+  padding-top: 2%;
 }
 .blog-post{
   padding-top: 15px;
@@ -154,9 +161,6 @@ body {
 .page-not-found {
   padding-top: 20%;
 }
-.disqus {
-  padding-bottom: 15px;
-}
 
 .blogpost{
   text-align: left;
@@ -166,19 +170,3 @@ body {
 
 /* Footer 
 -------------------------------------------------- */
-
-.footer {
-  text-decoration: none !important;
-}
-.text-muted {
-	color: #6b6b6b;
-}
-div.footer{
-  border-bottom: 5px solid #27A822;;
-}
-/* Set the fixed height of the footer here */
-/*.footer {
-  height: 50px;
-  padding-bottom: 15px;
-  
-}*/

@@ -12,13 +12,13 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://lizagak.github.io/
-baseurl: /index.html
+baseurl: ./
 title: Liza Gak
 author: Liza Gak
-description: Personal blog and resume
-avatar: profile.png
+description: Personal Website
+avatar: liza.JPG
 email: lizagak@berkeley.edu
-github: lizagak # username
+#github: lizagak # username
 twitter: lizagak
 #linkedin: username
 #stackoverflow: username   #e.g: users/2735833/proton1h1

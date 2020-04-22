@@ -87,6 +87,7 @@ body {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #6b6b6b;
+  
     background-color: #ffffff;
   }
 }
@@ -121,10 +122,10 @@ body {
 .panel-default h5 {
   text-align: left;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 22px;
 }
 .panel-default h6 {
-  font-size: 15px;
+  font-size: 22px;
 }
 .panel-default h4 a, h5 a {
   color: #966ac4;

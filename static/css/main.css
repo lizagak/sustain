@@ -97,8 +97,7 @@ body {
 
 .container {
   width: auto;
-  max-width: 800px;
-  text-align: center;
+  max-width: 42%;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -155,9 +154,6 @@ body {
 }
 .blog-title{
   padding-top: 2px;
-}
-.related-posts h4 {
-  text-align: center;
 }
 .page-not-found {
   padding-top: 20%;
